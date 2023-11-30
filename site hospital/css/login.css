@@ -1,0 +1,47 @@
+body {
+    background-color: #B4DDEF;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.dados{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.dados2{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background-color: #6ba4e1;
+    border: none;
+    border-radius: 10px;    
+}
+
+img{
+    width: 100px;       
+    height: 100px;
+    right: 10px;
+    padding-left: -10px; 
+}
+
+
+input{
+    border-radius: 10px;
+}

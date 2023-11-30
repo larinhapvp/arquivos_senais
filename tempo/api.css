@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-image: url(ceu3.jpg);
+
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+textarea{
+    width: 230px;
+    height: 90px;
+   
+}

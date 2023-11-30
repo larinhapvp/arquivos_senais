@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cep.css">
+    <title>CEP</title>
+    <link rel="icon" href="img/mapa.png">
+</head>
+<body>
+    <div class="esquerda">
+        <h2>CADASTRO</h2>
+        <h3>DIGITE SEUS DADOS</h3>
+        <br>
+        <label>Nome Completo:</label>
+
+        <br>
+        <input type="text" name="nome" size="50">
+        <br>
+        <br>
+        <label>E-mail:</label>
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <br>
+        <label>Senha:</label>
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <br>
+        <label>Telefone:</label>
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <br>
+        
+        <div id="resultado2" class="resultado2"></div>
+        
+        <ul id="lista-carrinho">
+            <!-- Itens do carrinho aparecerão aqui -->
+
+        </ul>
+
+        <span id="total-carrinho">0.00</span>
+
+    </div>
+    <label>cep:</label>
+        <br>
+        <input type="text" id="cep" placeholder="digite o CEP">
+        <button onclick="buscarCep()">enviar</button>
+        <br>
+        <div id="resultado" class="resultado2"></div>
+
+
+        <inpult type="text" id="resultado2" placeholder="total da compra" disabled>
+            <button onclick="resultadoSomar()">calcular</button>
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

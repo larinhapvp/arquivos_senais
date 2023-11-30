@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="icon" type="image/png" href="img/placa-de-hospital.png">
+    <title>SP Medical Group</title>
+</head>
+
+<body>
+    <div class="esquerda">
+        <img class="icon" src="img/oi-removebg-preview.png" alt="login" title="login" width="70" height="70">
+        <h2>CADASTRO</h2>
+        <h3>DIGITE SEUS DADOS</h3>
+        <br>
+        <label>Nome Completo:</label>
+
+        <br>
+        <input type="text" name="nome" size="50">
+        <br>
+        <br>
+        <label>E-mail:</label>
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <br>
+        <label>Senha:</label>
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <br>
+        <label>Telefone:</label>
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <br>
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <br>
+        <input type="date" id="dataNascimento" name="dataNascimento">
+
+    </div>
+
+    <div class="direita">
+        <h1> PERFIL DE USUÁRIO </h1>
+        <br>
+        <label>
+            <input type="radio" name="dev-web" value="frontend"> ADMINISTRADOR</label> <img
+            src="img/adm-removebg-preview.png" width="60" height="60" />
+      
+        <label>
+            <br>
+            <input type="radio" name="dev-web" value="backend"> MEDICO</label> <img src="img/med.png" width="60"
+            height="60" />
+       
+        <label>
+            <br>
+            <input type="radio" name="dev-web" value="fullstack"> PACIENTE</label> <img src="img/paci.png" width="60"
+            height="60" />
+
+        <br>
+        <br>
+        <br>
+       
+        
+        <a href="consulta.html"><button>Enviar</button></a>
+
+
+    </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+</body>
+
+</html>

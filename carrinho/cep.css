@@ -1,0 +1,35 @@
+.resultado2 {
+  display: flex;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(51, 6, 251, 0.7);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+  background-color:black;
+  color:azure;
+  
+
+}
+
+body {
+  background-image:url(img/cinza.png)
+}
+
+h2, h3{
+ font-size: 40px;
+ color:azure;
+ text-align:center;
+}
+
+label{
+  font-size: 20px;
+  color:azure !important
+ }
+
+.carrinho{
+  margin-right: 345%;
+  
+}

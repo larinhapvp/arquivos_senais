@@ -1,0 +1,45 @@
+body{
+    background-color: #B4DDEF;
+    text-align: left;
+    padding-left: 150px;
+}
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 40px;
+
+}
+h3{
+    font-size: 20px;
+    margin-top: 0px;
+}
+label{
+    font-size: x-large;
+}
+
+input{
+    border-radius: 10px;
+
+}
+button{
+    border-radius: 10px;
+    margin-left: -20%;
+}
+
+.direita{
+    margin-top: -35%;
+    margin-left: 45%;
+    border: #000;
+
+}
+.enviar{
+    font-size: 20px;
+}
+.limpar{
+    font-size: 20px;
+}
+.icon{
+    margin-left: -10%;
+}

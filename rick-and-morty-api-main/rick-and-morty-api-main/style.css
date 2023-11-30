@@ -1,0 +1,37 @@
+h2{
+color: rgb(76, 217, 25);
+
+}
+
+body{
+  background-image:url(Captura\ de\ tela\ 2023-09-14\ 105139.png);
+  color: azure;
+ 
+}
+
+input[type='number'] {
+  padding: 5px;
+  width: 50px;
+}
+
+form label {
+  padding-left: 20px;
+}
+
+.result-style {
+  display: flex;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(10, 251, 6, 0.7);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  max-height: 200px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
